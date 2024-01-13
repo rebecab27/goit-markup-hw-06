@@ -874,10 +874,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
   padding: 8px 16px;
   outline: transparent;
   resize: none;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-              background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-              color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-              border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -1002,3 +999,18 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+
+
+
+.checkbox-modal:focus + .svg-labels-modal .svg-icons-element {
+  fill: #4D5AE5;
+}
+
+.checkbox-modal:checked + .svg-labels-modal .svg-icons-element {
+  fill: #4D5AE5;
+}
+
+
+
