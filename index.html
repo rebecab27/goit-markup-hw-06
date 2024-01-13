@@ -602,16 +602,12 @@
               <label for="user-comment" class="label-modal"
                 >Comment
             <div class="modal-window-div">
-                <input type="text" name="Comment" />
-         
+                <input type="text" name="Comment"/>
               <textarea
                 class="textarea-modal"
                 id="user-comment"
                 placeholder="Text input"
-                name=""
-                id=""
-                cols="30"
-                rows="10"
+                name="user-comment"
               ></textarea>
             </div>
           </label>
@@ -622,21 +618,20 @@
                 type="checkbox"
                 name="user-privacy"
                 value="true"
-                id=""
                 id="user-privacy"
               />
-              <label class="label-modal" id="user-privacy" for=""
-                >I accept the terms and conditions of the Privacy Policy</label
+              <label id="user-privacy" class="label-modal"
+                ><span class="span-modal-window"> 
+                  <svg width="10" height="8">
+                    <use href=""></use>
+                  </svg>
+              
+                </span>I accept the terms and conditions of the Privacy Policy</label
               >
             </div>
             </label>
-
-
-
-        
+            <button class="button" type="submit">Send</button>
         </form>
-
-        <button class="button" type="submit">Send</button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
