@@ -815,7 +815,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
 
 }
 
-.modal-window-div
+.modal-window-label
 {
   position: relative;
 }
@@ -959,5 +959,5 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
   align-items: center;
   justify-content: center;
   fill: transparent;
-  
+
 }
