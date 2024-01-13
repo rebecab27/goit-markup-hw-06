@@ -852,13 +852,11 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: initial;
 }
 
-.svg-labels-modal:focus {
+.svg-labels-modal:focus path {
   fill: #4D5AE5;
 }
-
 .textarea-modal {
   width: 100%;
   height: 120px;
