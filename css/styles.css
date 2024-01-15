@@ -802,7 +802,13 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
 .modal-div-form
 {
   margin-bottom: 8px;
+  
 }
+
+.modal-div-form:focus-within {
+  fill: #4D5AE5;
+}
+
 
 .label-modal
 {
@@ -857,6 +863,8 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-b
 .svg-labels-modal:focus {
   fill: #4D5AE5;
 }
+
+
 
 .labels-modal:focus {
   border-color: #4D5AE5;
